@@ -5,7 +5,7 @@ import HeroTerminal from '../components/Terminal'
 
 const Hero = () => {
   return (
-    <div id='hero' className='w-full overflow-hidden px-6 md:pt-14 pt-24'>
+    <div id='hero' className='w-full overflow-hidden px-6 md:pt-28 pt-24'>
         <div className='mx-auto max-w-6xl flex flex-col justify-center items-center'>
             <div className='border flex md:gap-3 gap-1 items-center px-4 py-2 text-dark/75 border-dark/7 rounded-full'>
             <span>AI powered APIs for warp speed</span>

@@ -9,7 +9,7 @@ const Navbar = () => {
 
   return (
     <>
-      <div className='fixed top-4 z-50 flex items-center justify-between w-[88%] p-4 md:p-5 border-4 rounded-2xl border-dark/3 backdrop-blur-md shadow-xl shadow-black/5 bg-light/70'>
+      <div className='fixed top-4 z-50 flex items-center justify-between md:w-[97%] w-[88%] p-4 md:p-5 border-4 rounded-2xl border-dark/3 backdrop-blur-md shadow-xl shadow-black/5 bg-light/70'>
         {/* Logo */}
         <a href="#hero" className='inline-flex items-center gap-2'>
           <Image src='/Warp..svg' alt='Logo' height={52} width={52} />
